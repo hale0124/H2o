@@ -101,7 +101,7 @@ CREATE TABLE `categories` (
 
 LOCK TABLES `categories` WRITE;
 /*!40000 ALTER TABLE `categories` DISABLE KEYS */;
-INSERT INTO `categories` VALUES (1,NULL,'導覽',1,0,4,1),(2,1,'首頁',2,1,3,1);
+INSERT INTO `categories` VALUES (1,NULL,'Navigation',1,0,4,1),(2,1,'首頁',2,1,3,1);
 /*!40000 ALTER TABLE `categories` ENABLE KEYS */;
 UNLOCK TABLES;
 
