@@ -1,0 +1,24 @@
+<?php
+namespace Category;
+?>
+<h2><?php echo $this->translate("Categories", __NAMESPACE__); ?></h2>
+<div class="row"> 
+    <div class="span3"> 
+        <div class="well" style="padding: 8px 0;"> 
+            <!-- Navigation -->
+            <?php echo $this->navlist($category, $root, null); ?>
+            <!-- /Navigation -->
+        </div> 
+    </div> 
+    <div class="span9">
+            <div class="alert alert-info">
+                <button class="close" data-dismiss="alert" type="button">×</button>
+                <strong><?php echo $this->translate("Info", __NAMESPACE__);?>:</strong>
+                <?php echo $this->translate("Choose category for modification or add category", __NAMESPACE__);?>
+            </div>        
+        <a class="btn" href="<?php echo $this->url('zfcadmin/categories-administration',array('action'=>'add')); ?>">
+            <i class="icon-plus"></i>
+            &nbsp;<?php echo $this->translate("Add category to /", __NAMESPACE__);?>
+        </a>
+    </div>
+</div>

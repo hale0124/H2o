@@ -1,0 +1,204 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ZF2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-12-27 18:21+0100\n"
+"PO-Revision-Date: 2013-01-21 15:50+0800\n"
+"Last-Translator: 李名浩 <hale0124@gmail.com>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: translate\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Country: CZECH REPUBLIC\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: /home/www/workspace/module/Application\n"
+
+#: /home/www/workspace/module/Application/view/error/404.phtml:4
+msgid "A 404 error occurred"
+msgstr "A 404 error occurred"
+
+#: /home/www/workspace/module/Application/view/error/404.phtml:13
+msgid "The requested controller was unable to dispatch the request."
+msgstr "The requested controller was unable to dispatch the request."
+
+#: /home/www/workspace/module/Application/view/error/404.phtml:16
+msgid "The requested controller could not be mapped to an existing controller class."
+msgstr "The requested controller could not be mapped to an existing controller class."
+
+#: /home/www/workspace/module/Application/view/error/404.phtml:19
+msgid "The requested controller was not dispatchable."
+msgstr "The requested controller was not dispatchable."
+
+#: /home/www/workspace/module/Application/view/error/404.phtml:22
+msgid "The requested URL could not be matched by routing."
+msgstr "The requested URL could not be matched by routing."
+
+#: /home/www/workspace/module/Application/view/error/404.phtml:25
+msgid "We cannot determine at this time why a 404 was generated."
+msgstr "We cannot determine at this time why a 404 was generated."
+
+#: /home/www/workspace/module/Application/view/error/404.phtml:37
+msgid "Controller"
+msgstr "Controller"
+
+#: /home/www/workspace/module/Application/view/error/404.phtml:44
+#, c-format
+msgid "resolves to %s"
+msgstr "resolves to %s"
+
+#: /home/www/workspace/module/Application/view/error/404.phtml:56
+#: /home/www/workspace/module/Application/view/error/index.phtml:11
+msgid "Additional information"
+msgstr "Additional information"
+
+#: /home/www/workspace/module/Application/view/error/404.phtml:59
+#: /home/www/workspace/module/Application/view/error/404.phtml:83
+#: /home/www/workspace/module/Application/view/error/index.phtml:14
+#: /home/www/workspace/module/Application/view/error/index.phtml:38
+msgid "File"
+msgstr "File"
+
+#: /home/www/workspace/module/Application/view/error/404.phtml:63
+#: /home/www/workspace/module/Application/view/error/404.phtml:87
+#: /home/www/workspace/module/Application/view/error/index.phtml:18
+#: /home/www/workspace/module/Application/view/error/index.phtml:42
+msgid "Message"
+msgstr "Message"
+
+#: /home/www/workspace/module/Application/view/error/404.phtml:67
+#: /home/www/workspace/module/Application/view/error/404.phtml:91
+#: /home/www/workspace/module/Application/view/error/index.phtml:22
+#: /home/www/workspace/module/Application/view/error/index.phtml:46
+msgid "Stack trace"
+msgstr "Stack trace"
+
+#: /home/www/workspace/module/Application/view/error/404.phtml:77
+#: /home/www/workspace/module/Application/view/error/index.phtml:32
+msgid "Previous exceptions"
+msgstr "Previous exceptions"
+
+#: /home/www/workspace/module/Application/view/error/404.phtml:106
+#: /home/www/workspace/module/Application/view/error/index.phtml:61
+msgid "No Exception available"
+msgstr "No Exception available"
+
+#: /home/www/workspace/module/Application/view/error/index.phtml:4
+msgid "An error occurred"
+msgstr "An error occurred"
+
+#: /home/www/workspace/module/Application/view/zfc-admin/admin/index.phtml:5
+#: /home/www/workspace/module/Application/view/layout/myadmin.phtml:43
+#: /home/www/workspace/module/Application/view/layout/layout.phtml:51
+msgid "Administration"
+msgstr "Administration"
+
+#: /home/www/workspace/module/Application/view/zfc-admin/admin/index.phtml:63
+msgid "Wellcome"
+msgstr "Wellcome"
+
+#: /home/www/workspace/module/Application/view/zfc-admin/admin/index.phtml:66
+msgid "This is example wellcome page. There is no functionality implemented."
+msgstr "This is example wellcome page. There is no functionality implemented."
+
+#: /home/www/workspace/module/Application/view/zfc-admin/admin/index.phtml:73
+msgid "Recent Activity"
+msgstr "Recent Activity"
+
+#: /home/www/workspace/module/Application/view/zfc-admin/admin/index.phtml:79
+msgid "Project"
+msgstr "Project"
+
+#: /home/www/workspace/module/Application/view/zfc-admin/admin/index.phtml:82
+msgid "Client"
+msgstr "Client"
+
+#: /home/www/workspace/module/Application/view/zfc-admin/admin/index.phtml:85
+msgid "Type"
+msgstr "Type"
+
+#: /home/www/workspace/module/Application/view/zfc-admin/admin/index.phtml:88
+msgid "Date"
+msgstr "Date"
+
+#: /home/www/workspace/module/Application/view/zfc-admin/admin/index.phtml:91
+msgid "View"
+msgstr "View"
+
+#: /home/www/workspace/module/Application/view/layout/myadmin.phtml:8
+#: /home/www/workspace/module/Application/view/layout/layout.phtml:10
+#: /home/www/workspace/module/Application/view/layout/layout.phtml:43
+msgid "Application title"
+msgstr "Application title"
+
+#: /home/www/workspace/module/Application/view/layout/myadmin.phtml:46
+msgid "Home"
+msgstr "Home"
+
+#: /home/www/workspace/module/Application/view/layout/myadmin.phtml:46
+msgid "Sign out"
+msgstr "Sign out"
+
+#: /home/www/workspace/module/Application/view/layout/myadmin.phtml:65
+#: /home/www/workspace/module/Application/view/layout/layout.phtml:83
+msgid "Back to top"
+msgstr "Back to top"
+
+#: /home/www/workspace/module/Application/view/layout/myadmin.phtml:67
+#: /home/www/workspace/module/Application/view/layout/layout.phtml:85
+msgid "Code licensed under the"
+msgstr "Code licensed under the"
+
+#: /home/www/workspace/module/Application/view/layout/myadmin.phtml:67
+#: /home/www/workspace/module/Application/view/layout/layout.phtml:85
+msgid "Documentation licensed under"
+msgstr "Documentation licensed under"
+
+#: /home/www/workspace/module/Application/view/layout/myadmin.phtml:68
+#: /home/www/workspace/module/Application/view/layout/layout.phtml:86
+msgid "Icons from"
+msgstr "Icons from"
+
+#: /home/www/workspace/module/Application/view/layout/myadmin.phtml:68
+#: /home/www/workspace/module/Application/view/layout/layout.phtml:86
+msgid "licensed under"
+msgstr "licensed under"
+
+#: /home/www/workspace/module/Application/view/layout/myadmin.phtml:70
+#: /home/www/workspace/module/Application/view/layout/layout.phtml:88
+msgid "Blog source on github"
+msgstr "Blog source on github"
+
+#: /home/www/workspace/module/Application/view/layout/myadmin.phtml:71
+#: /home/www/workspace/module/Application/view/layout/layout.phtml:89
+msgid "Thanks to Zend Framework 2"
+msgstr "Thanks to Zend Framework 2"
+
+#: /home/www/workspace/module/Application/view/layout/myadmin.phtml:72
+#: /home/www/workspace/module/Application/view/layout/layout.phtml:90
+msgid "Styled by twitter bootstrap"
+msgstr "Styled by twitter bootstrap"
+
+#: /home/www/workspace/module/Application/view/layout/layout.phtml:53
+msgid "Sign in"
+msgstr "Sign in"
+
+#: /home/www/workspace/module/Application/view/layout/layout.phtml:64
+msgid "Example application"
+msgstr "Example application"
+
+#: /home/www/workspace/module/Application/view/layout/layout.phtml:65
+msgid "Example application quote"
+msgstr "Example application quote"
+
+#: /home/www/workspace/module/Application/view/layout/layout.phtml:84
+msgid "Version"
+msgstr "Version"
+
+#~ msgid "Articles"
+#~ msgstr "Články"
+
+#~ msgid "Profile"
+#~ msgstr "Profil"

@@ -1,0 +1,36 @@
+<?php
+namespace Article;
+$title = $this->translate("Edit articles group", __NAMESPACE__);
+$this->headTitle($title);
+?>
+<h2><?php echo $this->escapeHtml($title); ?></h2>
+<?php
+$form = $this->form;
+$formType = $this->formType;
+$validData = $this->validData;
+$form->setAttribute('action', $this->url('zfcadmin/articles-administration',array('action' => 'editGroup','id'=> $this->id)));
+$form->prepare();
+$displayOptions = array();
+if ($form->getMessages()):
+    ?>
+    <div class="alert alert-error">
+        <button class="close" data-dismiss="alert" type="button">×</button>
+        <strong><?php echo $this->translate("Invalid input", __NAMESPACE__);?>!</strong>
+        <?php echo $this->translate("The form fields are not filled out correctly", __NAMESPACE__);?>.
+    </div>
+<?php elseif ($validData): ?>
+    <div class="alert alert-success">
+        <button class="close" data-dismiss="alert" type="button">×</button>
+        <strong><?php echo $this->translate("Form data is valid", __NAMESPACE__);?>!</strong>
+        <?php echo $this->translate("The following data has been received from the form", __NAMESPACE__);?>.
+    </div>
+    <?php echo($validData); ?>
+<?php else: ?>
+    <div class="alert alert-info">
+        <button class="close" data-dismiss="alert" type="button">×</button>
+        <strong><?php echo $this->translate("Submit the form", __NAMESPACE__);?>:</strong>
+        <?php echo $this->translate("Fill this form and submit", __NAMESPACE__);?>
+    </div>
+<?php
+endif;
+echo $this->formTwb($form, $formType, $displayOptions);

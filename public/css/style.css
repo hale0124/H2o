@@ -1,0 +1,48 @@
+.fleft{
+    float:left;
+}
+
+.fright{
+    float: right;
+}
+
+/* #068006 ; #003700 */
+.btn-success {
+  background-color: #003700;
+  background-image: -moz-linear-gradient(top, #003700, #068006);
+  background-image: -ms-linear-gradient(top, #003700, #068006);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#003700), to(#068006));
+  background-image: -webkit-linear-gradient(top, #003700, #068006);
+  background-image: -o-linear-gradient(top, #003700, #068006);
+  background-image: linear-gradient(top, #003700, #068006);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#003700', endColorstr='#068006', GradientType=0);
+}
+
+.btn-success:hover,
+.btn-success:active,
+.btn-success.active,
+.btn-success.disabled,
+.btn-success[disabled] {
+  background-color: #068006;
+}
+
+.btn-success:active, .btn-success.active {
+  background-color: #068006;
+}
+
+.hidden{
+    display: none;
+}
+
+.carousel .carousel_h {
+    height: 332px;
+}
+
+.ckeditor{
+    width: 756px;
+}
+
+/* =====  */
+
+.main-menu {margin-top: 20px;} 
+/* .ui-menu {width: 160px;} */

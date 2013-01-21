@@ -1,0 +1,289 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ZF2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-12-19 22:58+0100\n"
+"PO-Revision-Date: 2013-01-21 15:51+0800\n"
+"Last-Translator: 李名浩 <hale0124@gmail.com>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: translate\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Country: CZECH REPUBLIC\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: /home/www/workspace/module/Article\n"
+
+#: /home/www/workspace/module/Article/src/Article/Controller/AdministrationController.php:68
+msgid "Article succesffully added"
+msgstr "文章新增成功"
+
+#: /home/www/workspace/module/Article/src/Article/Controller/AdministrationController.php:111
+msgid "Article succesffully edited"
+msgstr "文章編輯完成"
+
+#: /home/www/workspace/module/Article/src/Article/Controller/AdministrationController.php:146
+msgid "Article succesffully deleted"
+msgstr "文章刪除完成"
+
+#: /home/www/workspace/module/Article/src/Article/Controller/AdministrationController.php:173
+msgid "Articles group succesffully added"
+msgstr "文章群組新增成功"
+
+#: /home/www/workspace/module/Article/src/Article/Controller/AdministrationController.php:200
+msgid "Articles group succesffully edited"
+msgstr "文章群組編輯成功"
+
+#: /home/www/workspace/module/Article/src/Article/Controller/AdministrationController.php:227
+msgid "Articles group succesffully deleted"
+msgstr "文章群組刪除成功"
+
+#: /home/www/workspace/module/Article/src/Article/Form/ArticleForm.php:32
+msgid "Display wysiwyg"
+msgstr "顯示編輯器"
+
+#: /home/www/workspace/module/Article/src/Article/Form/ArticleForm.php:33
+msgid "Type display wysiwyg hint"
+msgstr "顯示"
+
+#: /home/www/workspace/module/Article/src/Article/Form/ArticleForm.php:34
+msgid "Display wysiwyg description"
+msgstr "指定是否使用所見即所得的編輯器，或直接寫入HTML。"
+
+#: /home/www/workspace/module/Article/src/Article/Form/ArticleForm.php:42
+msgid "Article title placeholder"
+msgstr "輸入文章的標題"
+
+#: /home/www/workspace/module/Article/src/Article/Form/ArticleForm.php:45
+msgid "Title"
+msgstr "標題"
+
+#: /home/www/workspace/module/Article/src/Article/Form/ArticleForm.php:46
+msgid "Type title hint"
+msgstr "輸入一篇文章的標題"
+
+#: /home/www/workspace/module/Article/src/Article/Form/ArticleForm.php:47
+msgid "Title description"
+msgstr "標題序述"
+
+#: /home/www/workspace/module/Article/src/Article/Form/ArticleForm.php:58
+msgid "Select group"
+msgstr "選擇群組"
+
+#: /home/www/workspace/module/Article/src/Article/Form/ArticleForm.php:59
+msgid "Type select group hint"
+msgstr "選擇群組"
+
+#: /home/www/workspace/module/Article/src/Article/Form/ArticleForm.php:60
+msgid "Select group description"
+msgstr "選擇一個群組"
+
+#: /home/www/workspace/module/Article/src/Article/Form/ArticleForm.php:68
+msgid "Article blockquote placeholder"
+msgstr "文章引用符號"
+
+#: /home/www/workspace/module/Article/src/Article/Form/ArticleForm.php:71
+msgid "Blockquote"
+msgstr "引用"
+
+#: /home/www/workspace/module/Article/src/Article/Form/ArticleForm.php:72
+msgid "Type blocquote hint"
+msgstr "文章引用"
+
+#: /home/www/workspace/module/Article/src/Article/Form/ArticleForm.php:73
+msgid "Blockquote description."
+msgstr "簡短說明文"
+
+#: /home/www/workspace/module/Article/src/Article/Form/ArticleForm.php:80
+msgid "Article perex placeholder"
+msgstr "文章介紹符號"
+
+#: /home/www/workspace/module/Article/src/Article/Form/ArticleForm.php:85
+msgid "Perex"
+msgstr "介紹"
+
+#: /home/www/workspace/module/Article/src/Article/Form/ArticleForm.php:86
+msgid "Type perex hint"
+msgstr "輸入文章介紹"
+
+#: /home/www/workspace/module/Article/src/Article/Form/ArticleForm.php:87
+msgid "Perex description"
+msgstr "介紹性文字"
+
+#: /home/www/workspace/module/Article/src/Article/Form/ArticleForm.php:94
+msgid "Article text placeholder"
+msgstr "輸入文字"
+
+#: /home/www/workspace/module/Article/src/Article/Form/ArticleForm.php:99
+msgid "Text"
+msgstr "文字"
+
+#: /home/www/workspace/module/Article/src/Article/Form/ArticleForm.php:100
+msgid "Type text hint"
+msgstr "輸入文字的文章，或使用編輯器"
+
+#: /home/www/workspace/module/Article/src/Article/Form/ArticleForm.php:101
+msgid "Text description."
+msgstr "輸入文字"
+
+#: /home/www/workspace/module/Article/src/Article/Form/ArticleForm.php:111
+msgid "Active"
+msgstr "開啟"
+
+#: /home/www/workspace/module/Article/src/Article/Form/ArticleForm.php:112
+msgid "Type active hint"
+msgstr "是/否開啟"
+
+#: /home/www/workspace/module/Article/src/Article/Form/ArticleForm.php:113
+msgid "Active description"
+msgstr "是/否開啟?"
+
+#: /home/www/workspace/module/Article/src/Article/Form/ArticleForm.php:121
+#: /home/www/workspace/module/Article/src/Article/Form/ArticlesGroupForm.php:43
+msgid "Submit"
+msgstr "送出"
+
+#: /home/www/workspace/module/Article/src/Article/Form/ArticlesGroupForm.php:29
+msgid "Articles grouptitle placeholder"
+msgstr "輸入一組文章的標題"
+
+#: /home/www/workspace/module/Article/src/Article/Form/ArticlesGroupForm.php:32
+msgid "Name"
+msgstr "名稱"
+
+#: /home/www/workspace/module/Article/src/Article/Form/ArticlesGroupForm.php:33
+msgid "Type name hint"
+msgstr "輸入一個名稱"
+
+#: /home/www/workspace/module/Article/src/Article/Form/ArticlesGroupForm.php:34
+msgid "Name description"
+msgstr "名稱"
+
+#: /home/www/workspace/module/Article/view/article/administration/edit-group.phtml:3
+msgid "Edit articles group"
+msgstr "編輯文章群組"
+
+#: /home/www/workspace/module/Article/view/article/administration/edit-group.phtml:18
+msgid "Invalid input"
+msgstr "無效的輸入"
+
+#: /home/www/workspace/module/Article/view/article/administration/edit-group.phtml:19
+msgid "The form fields are not filled out correctly"
+msgstr "表格欄位不正確"
+
+#: /home/www/workspace/module/Article/view/article/administration/edit-group.phtml:24
+msgid "Form data is valid"
+msgstr "表單欄位正確"
+
+#: /home/www/workspace/module/Article/view/article/administration/edit-group.phtml:25
+msgid "The following data has been received from the form"
+msgstr "以下資料接收於表格"
+
+#: /home/www/workspace/module/Article/view/article/administration/edit-group.phtml:31
+msgid "Submit the form"
+msgstr "提交表單"
+
+#: /home/www/workspace/module/Article/view/article/administration/edit-group.phtml:32
+msgid "Fill this form and submit"
+msgstr "請填寫此表格並發送"
+
+#: /home/www/workspace/module/Article/view/article/administration/delete.phtml:3
+msgid "Delete article"
+msgstr "刪除文章"
+
+#: /home/www/workspace/module/Article/view/article/administration/delete.phtml:8
+msgid "Are you sure that you want to delete"
+msgstr "確定刪除?"
+
+#: /home/www/workspace/module/Article/view/article/administration/edit.phtml:3
+msgid "Edit article"
+msgstr "編輯文章"
+
+#: /home/www/workspace/module/Article/view/article/administration/add.phtml:3
+msgid "Add new article"
+msgstr "編輯文章"
+
+#: /home/www/workspace/module/Article/view/article/administration/delete-group.phtml:3
+msgid "Delete articles group"
+msgstr "刪除文章群組"
+
+#: /home/www/workspace/module/Article/view/article/administration/add-group.phtml:3
+msgid "Add new article group"
+msgstr "新增文章群組"
+
+#: /home/www/workspace/module/Article/view/article/administration/index.phtml:3
+#: /home/www/workspace/module/Article/view/article/administration/index.phtml:7
+#: /home/www/workspace/module/Article/view/article/article/pdf.phtml:17
+#: /home/www/workspace/module/Article/view/article/article/get.phtml:5
+#: /home/www/workspace/module/Article/view/article/article/index.phtml:3
+msgid "Articles"
+msgstr "文章"
+
+#: /home/www/workspace/module/Article/view/article/administration/index.phtml:8
+#: /home/www/workspace/module/Article/view/article/administration/index.phtml:47
+msgid "Articles groups"
+msgstr "文章群組"
+
+#: /home/www/workspace/module/Article/view/article/administration/index.phtml:16
+msgid "Add article"
+msgstr "新增文章"
+
+#: /home/www/workspace/module/Article/view/article/administration/index.phtml:23
+msgid "Group"
+msgstr "新增文章"
+
+#: /home/www/workspace/module/Article/view/article/administration/index.phtml:24
+msgid "Created"
+msgstr "已建立"
+
+#: /home/www/workspace/module/Article/view/article/administration/index.phtml:37
+#: /home/www/workspace/module/Article/view/article/administration/index.phtml:63
+msgid "Edit"
+msgstr "編輯"
+
+#: /home/www/workspace/module/Article/view/article/administration/index.phtml:38
+#: /home/www/workspace/module/Article/view/article/administration/index.phtml:64
+msgid "Delete"
+msgstr "刪除"
+
+#: /home/www/workspace/module/Article/view/article/administration/index.phtml:49
+msgid "Add articles group"
+msgstr "新增文章群組"
+
+#: /home/www/workspace/module/Article/view/article/administration/index.phtml:55
+msgid "Articles count"
+msgstr "文章數"
+
+#: /home/www/workspace/module/Article/view/article/article/pdf.phtml:26
+#: /home/www/workspace/module/Article/view/article/article/pdf.phtml:35
+#: /home/www/workspace/module/Article/view/article/article/get.phtml:14
+#: /home/www/workspace/module/Article/view/article/article/get.phtml:23
+#: /home/www/workspace/module/Article/view/article/article/index.phtml:17
+msgid "Author"
+msgstr "創建人"
+
+#: /home/www/workspace/module/Article/view/article/article/pdf.phtml:37
+#: /home/www/workspace/module/Article/view/article/article/get.phtml:25
+msgid "Back to articles list"
+msgstr "返回文章列表"
+
+#: /home/www/workspace/module/Article/view/article/article/pdf.phtml:43
+#: /home/www/workspace/module/Article/view/article/article/get.phtml:31
+msgid "Article not found"
+msgstr "沒有找到文章"
+
+#: /home/www/workspace/module/Article/view/article/article/index.phtml:23
+msgid "View article detail"
+msgstr "顯示文章細節"
+
+#: /home/www/workspace/module/Article/view/article/article/index.phtml:32
+msgid "No articles found"
+msgstr "沒有找到文章"
+
+#~ msgid "Previous"
+#~ msgstr "Předchozí"
+
+#~ msgid "Next"
+#~ msgstr "Následující"

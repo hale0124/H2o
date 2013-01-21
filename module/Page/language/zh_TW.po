@@ -1,0 +1,175 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ZF2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-12-19 22:37+0100\n"
+"PO-Revision-Date: 2013-01-21 15:51+0800\n"
+"Last-Translator: 李名浩 <hale0124@gmail.com>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: translate\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Country: CZECH REPUBLIC\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: /home/www/workspace/module/Page\n"
+
+#: /home/www/workspace/module/Page/src/Page/Controller/AdministrationController.php:54
+msgid "Page succesffully added"
+msgstr "頁面新增成功"
+
+#: /home/www/workspace/module/Page/src/Page/Controller/AdministrationController.php:87
+msgid "Page succesffully edited"
+msgstr "頁面編輯成功"
+
+#: /home/www/workspace/module/Page/src/Page/Controller/AdministrationController.php:119
+msgid "Page succesffully deleted"
+msgstr "頁面刪除成功"
+
+#: /home/www/workspace/module/Page/src/Page/Form/PageForm.php:32
+#: /home/www/workspace/module/Page/view/page/administration/index.phtml:16
+msgid "Display wysiwyg"
+msgstr "顯示編輯器"
+
+#: /home/www/workspace/module/Page/src/Page/Form/PageForm.php:33
+msgid "Type display wysiwyg hint"
+msgstr "顯示"
+
+#: /home/www/workspace/module/Page/src/Page/Form/PageForm.php:34
+msgid "Display wysiwyg description"
+msgstr "指定是否使用所見即所得的編輯器，或直接寫入HTML。"
+
+#: /home/www/workspace/module/Page/src/Page/Form/PageForm.php:42
+msgid "Page name placeholder"
+msgstr "輸入頁面名稱"
+
+#: /home/www/workspace/module/Page/src/Page/Form/PageForm.php:45
+#: /home/www/workspace/module/Page/view/page/administration/index.phtml:14
+msgid "Name"
+msgstr "名稱"
+
+#: /home/www/workspace/module/Page/src/Page/Form/PageForm.php:46
+msgid "Type name hint"
+msgstr "輸入頁面的名稱"
+
+#: /home/www/workspace/module/Page/src/Page/Form/PageForm.php:47
+msgid "Name description"
+msgstr "輸入頁面名稱（最多150字元）"
+
+#: /home/www/workspace/module/Page/src/Page/Form/PageForm.php:55
+msgid "Page route name placeholder"
+msgstr "頁面路由"
+
+#: /home/www/workspace/module/Page/src/Page/Form/PageForm.php:58
+msgid "Page route"
+msgstr "頁面路由"
+
+#: /home/www/workspace/module/Page/src/Page/Form/PageForm.php:59
+msgid "Type page route hint"
+msgstr "輸入頁面路由"
+
+#: /home/www/workspace/module/Page/src/Page/Form/PageForm.php:60
+msgid "Page route description."
+msgstr "頁面路由 - 網站名稱後url中的斜線（必須包含原始字符，且不能有空格）"
+
+#: /home/www/workspace/module/Page/src/Page/Form/PageForm.php:67
+msgid "Page content placeholder"
+msgstr "頁面內容"
+
+#: /home/www/workspace/module/Page/src/Page/Form/PageForm.php:72
+msgid "Content"
+msgstr "頁面內容"
+
+#: /home/www/workspace/module/Page/src/Page/Form/PageForm.php:73
+msgid "Type content hint"
+msgstr "輸入頁面內容"
+
+#: /home/www/workspace/module/Page/src/Page/Form/PageForm.php:74
+msgid "Content description"
+msgstr "輸入頁面內容"
+
+#: /home/www/workspace/module/Page/src/Page/Form/PageForm.php:84
+#: /home/www/workspace/module/Page/view/page/administration/index.phtml:13
+msgid "Active"
+msgstr "開啟"
+
+#: /home/www/workspace/module/Page/src/Page/Form/PageForm.php:85
+msgid "Type active hint"
+msgstr "是/否開啟"
+
+#: /home/www/workspace/module/Page/src/Page/Form/PageForm.php:86
+msgid "Active description"
+msgstr "是/否開啟?"
+
+#: /home/www/workspace/module/Page/src/Page/Form/PageForm.php:94
+msgid "Submit"
+msgstr "送出"
+
+#: /home/www/workspace/module/Page/view/page/administration/delete.phtml:3
+msgid "Delete page"
+msgstr "刪除頁面"
+
+#: /home/www/workspace/module/Page/view/page/administration/delete.phtml:8
+msgid "Are you sure that you want to delete"
+msgstr "確定刪除?"
+
+#: /home/www/workspace/module/Page/view/page/administration/edit.phtml:3
+msgid "Edit page"
+msgstr "編輯頁面"
+
+#: /home/www/workspace/module/Page/view/page/administration/edit.phtml:18
+#: /home/www/workspace/module/Page/view/page/administration/add.phtml:19
+msgid "Invalid input"
+msgstr "無效的輸入"
+
+#: /home/www/workspace/module/Page/view/page/administration/edit.phtml:19
+#: /home/www/workspace/module/Page/view/page/administration/add.phtml:20
+msgid "The form fields are not filled out correctly"
+msgstr "表格欄位不正確"
+
+#: /home/www/workspace/module/Page/view/page/administration/edit.phtml:24
+#: /home/www/workspace/module/Page/view/page/administration/add.phtml:25
+msgid "Form data is valid"
+msgstr "表單欄位正確"
+
+#: /home/www/workspace/module/Page/view/page/administration/edit.phtml:25
+#: /home/www/workspace/module/Page/view/page/administration/add.phtml:26
+msgid "The following data has been received from the form"
+msgstr "以下資料接收於表格"
+
+#: /home/www/workspace/module/Page/view/page/administration/edit.phtml:31
+#: /home/www/workspace/module/Page/view/page/administration/add.phtml:32
+msgid "Submit the form"
+msgstr "提交表單"
+
+#: /home/www/workspace/module/Page/view/page/administration/edit.phtml:32
+#: /home/www/workspace/module/Page/view/page/administration/add.phtml:33
+msgid "Fill this form and submit"
+msgstr "請填寫此表格並發送"
+
+#: /home/www/workspace/module/Page/view/page/administration/add.phtml:3
+msgid "Add new page"
+msgstr "新增頁面"
+
+#: /home/www/workspace/module/Page/view/page/administration/index.phtml:3
+msgid "Pages"
+msgstr "頁面"
+
+#: /home/www/workspace/module/Page/view/page/administration/index.phtml:8
+msgid "Add page"
+msgstr "新增頁面"
+
+#: /home/www/workspace/module/Page/view/page/administration/index.phtml:15
+msgid "Route name"
+msgstr "路由名稱"
+
+#: /home/www/workspace/module/Page/view/page/administration/index.phtml:27
+msgid "Edit"
+msgstr "編輯"
+
+#: /home/www/workspace/module/Page/view/page/administration/index.phtml:28
+msgid "Delete"
+msgstr "刪除"
+

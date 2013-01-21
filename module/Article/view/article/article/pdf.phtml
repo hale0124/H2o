@@ -1,0 +1,48 @@
+<?php
+namespace Article;
+?>
+<html> 
+<head> 
+<meta	http-equiv="Content-Type"	content="charset=utf-8" />
+<style type="text/css">
+    * {
+        font-family: "DejaVu Sans Mono", monospace;
+      }
+</style>
+<title>Unicode (UTF-8) Test</title> 
+</head> 
+<body>
+<?php
+if ($article) {
+    $title = $this->translate("Articles", __NAMESPACE__);
+    $this->headTitle($title);
+    ?>
+    <div class="page-header">
+        <h1><?php echo $article->getTitle(); ?></h1>
+    </div>
+    <div class="article">
+        <blockquote>
+            <p><?php echo $article->getBlockquote(); ?></p>
+            <small><?php echo $this->translate("Author", __NAMESPACE__);?>: <?php echo $article->getUser()?$article->getUser()->getDisplayName():'N/A' ?> | <?php echo $article->getCreated()?$article->getCreated()->format('d.m.Y'):"N/A"; ?></small>
+        </blockquote>
+        <div class="perex">
+            <?php echo stripslashes($article->getPerex()); ?>
+        </div>
+        <hr />
+        <div class="article-content">
+            <?php echo stripslashes($article->getText()); ?>
+        </div>
+        <p class="muted"><small><?php echo $this->translate("Author", __NAMESPACE__);?>: <?php echo $article->getUser()?$article->getUser()->getDisplayName():'N/A' ?> | <?php echo $article->getCreated()?$article->getCreated()->format('d.m.Y'):"N/A"; ?></small></p>
+        <p class="pagination-right">
+                <a class="btn btn-success" href="<?php echo $this->url('articles');?>">« <?php echo $this->translate("Back to articles list", __NAMESPACE__);?></a>
+        </p>
+    </div>
+    <?php
+} else {
+    ?>
+    <p class="text-error"><?php echo $this->translate("Article not found", __NAMESPACE__);?></p>
+    <?php
+}
+?>
+</body>
+</html>

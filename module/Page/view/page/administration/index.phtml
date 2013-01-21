@@ -1,0 +1,38 @@
+<?php
+namespace Page;
+$title = $this->translate("Pages", __NAMESPACE__);
+$this->headTitle($title);
+?>
+<h2><?php echo $this->escapeHtml($title); ?></h2>
+<p>
+    <a class="btn btn-small" href="<?php echo $this->url('zfcadmin/pages-administration', array('action'=>'add'));?>">
+        <i class="icon-plus"></i>&nbsp;<?php echo $this->translate("Add page", __NAMESPACE__);?>
+    </a>
+</p>
+
+<table class="table">
+<tr>
+    <th><?php echo $this->translate("Active", __NAMESPACE__);?></th>
+    <th class="span4"><?php echo $this->translate("Name", __NAMESPACE__);?></th>
+    <th class="span4"><?php echo $this->translate("Route name", __NAMESPACE__);?></th>
+    <th><?php echo $this->translate("Display wysiwyg", __NAMESPACE__);?></th>
+    <th>&nbsp;</th>
+</tr>
+<?php foreach ($pages as $page) : ?>
+<tr>
+    <td><?php if($page->getActive()){?><i class="icon-ok"></i><?php }else{ ?><i class="icon-remove"></i><?php }?>
+    </td>
+    <td><?php echo $page->getName();?></td>
+    <td><?php echo $page->getRouteName(); ?></td>
+    <td><?php if($page->getDisplayWysiwyg()){?><i class="icon-ok"></i><?php }else{ ?><i class="icon-remove"></i><?php }?>
+    <td>
+        <a class="btn btn-small btn-warning" href="<?php echo $this->url('zfcadmin/pages-administration',array('action'=>'edit', 'id' => $page->getId()));?>">
+            <i class="icon-pencil"></i>&nbsp;<?php echo $this->translate("Edit", __NAMESPACE__);?>
+        </a>
+        <a class="btn btn-small btn-danger" href="<?php echo $this->url('zfcadmin/pages-administration',array('action'=>'delete', 'id' => $page->getId()));?>">
+            <i class="icon-remove"></i>&nbsp;<?php echo $this->translate("Delete", __NAMESPACE__);?>
+        </a>
+    </td>
+</tr>
+<?php endforeach; ?>
+</table>

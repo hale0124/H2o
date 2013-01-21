@@ -1,0 +1,164 @@
+<?php
+
+return array(
+    'assetic_configuration' => array(
+            'rendererToStrategy' => array(
+                'Zend\View\Renderer\PhpRenderer'  => 'AsseticBundle\View\ViewHelperStrategy',
+                'Zend\View\Renderer\FeedRenderer' => 'AsseticBundle\View\NoneStrategy',
+                'Zend\View\Renderer\JsonRenderer' => 'AsseticBundle\View\NoneStrategy',
+            ),
+            'webPath' => __DIR__.'/../../public/assets',
+            'cacheEnabled' => true,
+            'cachePath' => __DIR__.'/../../data/cache',
+            'debug' => false,
+            'baseUrl' => '/assets',
+            'controllers' => array(
+                'Application\Controller\Index' => array(
+                    '@base_css',
+                    '@base_js',
+                ),
+                'Article\Controller\Article' => array(
+                    '@base_css',
+                    '@base_js',
+                    '@article_css',
+                    '@article_js'
+                ),
+                
+                'Article\Controller\Administration' => array(
+                    '@base_css',
+                    '@base_js',
+                    '@article_administration_js'
+                ),
+                'Page\Controller\Page' => array(
+                    '@base_css',
+                    '@base_js',
+                ),
+                'Page\Controller\Administration' => array(
+                    '@base_css',
+                    '@base_js',
+                    '@page_administration_js'
+                ),
+                'Category\Controller\Administration' => array(
+                    '@base_css',
+                    '@base_js',
+                    '@category_administration_js'
+                ),
+                'zfcuser' => array(
+                    '@base_css',
+                    '@base_js',
+                ),
+                'ZfcAdmin\Controller\AdminController'=> array(
+                    '@base_css',
+                    '@base_js',
+                ),
+            ),
+            'routes' => array(
+                'doctrine_orm_module_yuml' => array(
+                    '@base_css',
+                    '@base_js',
+                ),
+            ),
+            'modules' => array(
+                'application' => array(
+                    'root_path' => __DIR__.'/../../module/Application/assets',
+                    'collections' => array(
+                        'base_css' => array(
+                            'assets' => array(
+                                //'css/menu.css'
+                            ),
+                            'filters' => array(),
+                            'options' => array(
+                                //'output' => 'base.css'
+                            ),
+                        ),
+
+                        'base_js' => array(
+                            'assets' => array(
+                                //'js/menu.js'
+                            ),
+                            'options' => array(
+                                //'output' => 'base.js'
+                            ),
+                        ),
+                    ),
+                ),
+                'article' => array(
+                    'root_path' => __DIR__.'/../../module/Article/assets',
+                    'collections' => array(
+                        'article_js' => array(
+                            'assets' => array(
+                                'js/SyntaxHighlighter/XRegExp.js',
+                                'js/SyntaxHighlighter/shCore.js',
+                                'js/SyntaxHighlighter/shBrushPhp.js',
+                                'js/SyntaxHighlighter/shBrushJScript.js',
+                                'js/article.js'
+                            ),
+                            'options' => array(
+                                'output' => 'article.js'
+                            )
+                        ),
+                        'article_css' => array(
+                            'assets' => array(
+                                'css/SyntaxHighlighter/shCore.css',
+                                'css/SyntaxHighlighter/shThemeDefault.css'
+                            ),
+                            'filters' => array(),
+                            'options' => array(),
+                        ),
+                        'article_administration_js' => array(
+                            'assets' => array(
+                                'js/article_administration.js'
+                            ),
+                            'options' => array(
+                                'output' => 'article_administration.js'
+                            )
+                        ),
+                    ),
+                ),
+                'page' => array(
+                    'root_path' => __DIR__.'/../../module/Page/assets',
+                    'collections' => array(
+                        'page_administration_js' => array(
+                            'assets' => array(
+                                'js/page_administration.js'
+                            ),
+                            'options' => array(
+                                'output' => 'page_administration.js'
+                            )
+                        ),
+                    ),
+                ),
+                'category' => array(
+                    'root_path' => __DIR__.'/../../module/Category/assets',
+                    'collections' => array(
+                        'category_administration_js' => array(
+                            'assets' => array(
+                                'js/category_administration.js',
+                            ),
+                            'options' => array(
+                                'output' => 'category_administration.js'
+                            ),
+                        ),
+                        /*
+                        'jstree_js' => array(
+                            'assets' => array(
+                                'js/jquery.jstree.js',
+                            ),
+                            'options' => array(
+                                'output' => 'js/jquery.jstree.js'
+                            ),
+                        ),
+                        'jstree_files' => array(
+                            'assets' => array(
+                                'js/themes/default/*.*',
+                            ),
+                            'options' => array(
+                                'move_raw' => true,
+                            )
+                        ),
+                        */
+                    ),
+                ),
+             ),
+        ));
+?>
