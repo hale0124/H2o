@@ -11,7 +11,7 @@ return array(
             'cacheEnabled' => true,
             'cachePath' => __DIR__.'/../../data/cache',
             'debug' => false,
-            'baseUrl' => '/assets',
+            'baseUrl' => '/',
             'controllers' => array(
                 'Application\Controller\Index' => array(
                     '@base_css',
